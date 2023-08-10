@@ -14,6 +14,7 @@
 		11DD2ED62A82875D008518F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11DD2ED52A82875D008518F3 /* Assets.xcassets */; };
 		11DD2ED92A82875D008518F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11DD2ED72A82875D008518F3 /* LaunchScreen.storyboard */; };
 		11DD2EE22A828A08008518F3 /* Reminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DD2EE12A828A08008518F3 /* Reminder.swift */; };
+		11DD2EE42A84E688008518F3 /* Data+Today.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DD2EE32A84E688008518F3 /* Data+Today.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		11DD2ED82A82875D008518F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		11DD2EDA2A82875D008518F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		11DD2EE12A828A08008518F3 /* Reminder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reminder.swift; sourceTree = "<group>"; };
+		11DD2EE32A84E688008518F3 /* Data+Today.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+Today.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 		11DD2EE02A828974008518F3 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				11DD2EE32A84E688008518F3 /* Data+Today.swift */,
 				11DD2EE12A828A08008518F3 /* Reminder.swift */,
 			);
 			path = Models;
@@ -149,6 +152,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11DD2EE42A84E688008518F3 /* Data+Today.swift in Sources */,
 				11DD2ED12A82875C008518F3 /* ReminderListViewController.swift in Sources */,
 				11DD2ECD2A82875C008518F3 /* AppDelegate.swift in Sources */,
 				11DD2ECF2A82875C008518F3 /* SceneDelegate.swift in Sources */,

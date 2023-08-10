@@ -20,11 +20,13 @@ class ReminderListViewController: UICollectionViewController {
             cell.contentConfiguration = contentConfiguration
         }
         
+        
         dataSource = DataSource(collectionView: collectionView) {
             (collectionView: UICollectionView, indexPath: IndexPath, itemIdenitifier: String) in
             return collectionView.dequeueConfiguredReusableCell(
                 using: cellRegistration, for: indexPath, item: itemIdenitifier)
         }
+        
         
         var snapshot = Snapshot()
         snapshot.appendSections([0])
