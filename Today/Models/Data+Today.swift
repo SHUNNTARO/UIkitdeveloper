@@ -1,7 +1,7 @@
 import Foundation
 
 extension Date {
-    var dayAndTimerText: String {
+    var dayAndTimeText: String {
         let timeText = formatted(date: .omitted, time: .shortened)
         if Locale.current.calendar.isDateInToday(self) {
             let timeFormat = NSLocalizedString("Today at %@", comment: "Today at time format string")

@@ -1,10 +1,3 @@
-//
-//  AppDelegate.swift
-//  Today
-//
-//  Created by 菅家俊太郎 on 2023/08/08.
-//
-
 import UIKit
 
 @main

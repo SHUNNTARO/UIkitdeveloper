@@ -15,6 +15,7 @@
 		11DD2ED92A82875D008518F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11DD2ED72A82875D008518F3 /* LaunchScreen.storyboard */; };
 		11DD2EE22A828A08008518F3 /* Reminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DD2EE12A828A08008518F3 /* Reminder.swift */; };
 		11DD2EE42A84E688008518F3 /* Data+Today.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DD2EE32A84E688008518F3 /* Data+Today.swift */; };
+		11DD2EE72A84EEDA008518F3 /* ReminderListViewController+DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DD2EE62A84EEDA008518F3 /* ReminderListViewController+DataSource.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		11DD2EDA2A82875D008518F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		11DD2EE12A828A08008518F3 /* Reminder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reminder.swift; sourceTree = "<group>"; };
 		11DD2EE32A84E688008518F3 /* Data+Today.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+Today.swift"; sourceTree = "<group>"; };
+		11DD2EE62A84EEDA008518F3 /* ReminderListViewController+DataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReminderListViewController+DataSource.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,10 +62,10 @@
 		11DD2ECB2A82875C008518F3 /* Today */ = {
 			isa = PBXGroup;
 			children = (
-				11DD2EE02A828974008518F3 /* Models */,
 				11DD2ECC2A82875C008518F3 /* AppDelegate.swift */,
+				11DD2EE02A828974008518F3 /* Models */,
 				11DD2ECE2A82875C008518F3 /* SceneDelegate.swift */,
-				11DD2ED02A82875C008518F3 /* ReminderListViewController.swift */,
+				11DD2EE52A84EEB5008518F3 /* ListViewController */,
 				11DD2ED22A82875C008518F3 /* Main.storyboard */,
 				11DD2ED52A82875D008518F3 /* Assets.xcassets */,
 				11DD2ED72A82875D008518F3 /* LaunchScreen.storyboard */,
@@ -79,6 +81,15 @@
 				11DD2EE12A828A08008518F3 /* Reminder.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		11DD2EE52A84EEB5008518F3 /* ListViewController */ = {
+			isa = PBXGroup;
+			children = (
+				11DD2ED02A82875C008518F3 /* ReminderListViewController.swift */,
+				11DD2EE62A84EEDA008518F3 /* ReminderListViewController+DataSource.swift */,
+			);
+			path = ListViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -157,6 +168,7 @@
 				11DD2ECD2A82875C008518F3 /* AppDelegate.swift in Sources */,
 				11DD2ECF2A82875C008518F3 /* SceneDelegate.swift in Sources */,
 				11DD2EE22A828A08008518F3 /* Reminder.swift in Sources */,
+				11DD2EE72A84EEDA008518F3 /* ReminderListViewController+DataSource.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
